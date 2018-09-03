@@ -34,7 +34,7 @@ public class CustomerAuthEntryPoint implements AuthenticationEntryPoint {
         }else {
             res= JSONObject.toJSONString(new Response<>(State.RES_INTERNET.getCode()));
         }
-        out.write(JSONObject.toJSONString(res));
+        out.write(res);
         out.flush();
         out.close();
     }
