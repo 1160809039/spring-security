@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="06c3a59a-9e44-4c3d-a0a7-61835b4e9c30" name="Default" comment="provider未生效问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/WebSecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java" afterPath="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/WebSecurityConfig$1.class" afterPath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/WebSecurityConfig$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/WebSecurityConfig$2.class" afterPath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/WebSecurityConfig$2.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/WebSecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/WebSecurityConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/handler/CustomerAuthEntryPoint.class" afterPath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/handler/CustomerAuthEntryPoint.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.class" afterPath="$PROJECT_DIR$/target/classes/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,96 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="78" column="91" lean-forward="false" selection-start-line="78" selection-start-column="91" selection-end-line="78" selection-end-column="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfigurerAdapter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.0.BUILD-SNAPSHOT/spring-security-config-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-              <folding>
-                <element signature="e#4679#4957#0" expanded="true" />
-                <element signature="e#4956#4957#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationManagerBuilder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.0.BUILD-SNAPSHOT/spring-security-config-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1517">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CustomerAuthenticationProvider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="264">
+              <caret line="38" column="111" lean-forward="false" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordEncoderImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/PasswordEncoderImpl.java">
+      <file leaf-file-name="LoginFailedHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/LoginFailedHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringDataUserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/SpringDataUserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerAuthenticationProcessingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/filter/CustomerAuthenticationProcessingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAuthenticationProcessingFilter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProviderManager.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/authentication/ProviderManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="422">
+              <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -119,8 +42,80 @@
       <file leaf-file-name="AbstractUserDetailsAuthenticationProvider.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1848">
-              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="-990">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerAuthenticationProcessingFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/filter/CustomerAuthenticationProcessingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlAccessDecisionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/access/UrlAccessDecisionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlFilterInvocationSecurityMetadataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/access/UrlFilterInvocationSecurityMetadataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerAuthEntryPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/CustomerAuthEntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAuthenticationProcessingFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1136">
+              <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsrfFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/csrf/CsrfFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528">
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -171,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/api/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/filter/CustomerAuthenticationProcessingFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/CustomerAuthEntryPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java" />
       </list>
     </option>
   </component>
@@ -194,10 +189,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="92" />
-    <option name="y" value="53" />
+    <option name="x" value="80" />
+    <option name="y" value="59" />
     <option name="width" value="1842" />
-    <option name="height" value="985" />
+    <option name="height" value="839" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -544,7 +539,7 @@
       <workItem from="1535683704145" duration="9490000" />
       <workItem from="1535714617804" duration="612000" />
       <workItem from="1535936802331" duration="22790000" />
-      <workItem from="1536026241398" duration="1838000" />
+      <workItem from="1536026241398" duration="3445000" />
     </task>
     <task id="LOCAL-00001" summary="小细节">
       <created>1535968603062</created>
@@ -560,14 +555,22 @@
       <option name="project" value="LOCAL" />
       <updated>1536027543445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="provider未生效问题">
+      <created>1536028101550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536028101550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34730000" />
+    <option name="totallyTimeSpent" value="36337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="53" width="1842" height="985" extended-state="0" />
+    <frame x="80" y="59" width="1842" height="839" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -578,7 +581,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34507042" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29886687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,18 +638,28 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java</url>
-          <line>51</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/csrf/CsrfFilter.class</url>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>csrfToken.getParameterName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>csrfToken.getHeaderName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>request.getRequestURL()</expression-string>
         <language-id>JAVA</language-id>
@@ -685,76 +698,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/access/vote/AbstractAccessDecisionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/access/vote/UnanimousBased.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/access/AccessDecisionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/DefaultSecurityFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/SecurityFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/AuthenticationEntryPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.0.BUILD-SNAPSHOT/spring-context-5.1.0.BUILD-20180828.115411-424.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="173" column="16" lean-forward="false" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.0.BUILD-SNAPSHOT/spring-context-5.1.0.BUILD-20180828.115411-424.jar!/org/springframework/context/ApplicationEventPublisher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.0.BUILD-SNAPSHOT/spring-security-config-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="233" column="55" lean-forward="false" selection-start-line="233" selection-start-column="55" selection-end-line="233" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2209">
-          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.0.BUILD-SNAPSHOT/spring-security-config-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/config/annotation/web/configurers/FormLoginConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -861,34 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/api/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/common/Enum/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/AuthFailedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/LoginFailedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -901,36 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/CustomerAuthEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/access/UrlAccessDecisionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/common/UserInfoVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/access/UrlFilterInvocationSecurityMetadataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -967,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.0.BUILD-SNAPSHOT/spring-security-config-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -995,10 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          <folding>
-            <element signature="e#4679#4957#0" expanded="true" />
-            <element signature="e#4956#4957#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +888,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1517">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1535683066591" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1535683066591" expanded="false" signature="194:1617" ph="..." />
+            <marker date="1535683066591" expanded="true" signature="2279:2328" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="2443:2729" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="2845:3006" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="3091:3169" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="3291:3407" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="3521:3629" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="3792:3969" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="4087:4203" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="4315:4409" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="4473:5245" ph="{...}" />
+            <marker date="1535683066591" expanded="true" signature="5281:5388" ph="{...}" />
+            <marker date="1535683066591" expanded="false" signature="5450:5461" ph=" { " />
+            <marker date="1535683066591" expanded="false" signature="5499:5505" ph=" }" />
+            <marker date="1535683066591" expanded="true" signature="5657:5809" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,22 +913,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1848">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1535683066030" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1535683066030" expanded="false" signature="167:850" ph="..." />
+            <marker date="1535683066030" expanded="false" signature="1355:1366" ph=" { " />
+            <marker date="1535683066030" expanded="false" signature="1411:1417" ph=" }" />
+            <marker date="1535683066030" expanded="true" signature="1516:1930" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="1986:2020" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="2052:2263" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="2366:4724" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="4809:4884" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="4959:5199" ph="{...}" />
+            <marker date="1535683066030" expanded="false" signature="5255:5266" ph=" { " />
+            <marker date="1535683066030" expanded="false" signature="5288:5294" ph=" }" />
+            <marker date="1535683066030" expanded="true" signature="5358:5431" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="5526:5666" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="5748:5823" ph="{...}" />
+            <marker date="1535683066030" expanded="false" signature="5883:5894" ph=" { " />
+            <marker date="1535683066030" expanded="false" signature="5942:5948" ph=" }" />
+            <marker date="1535683066030" expanded="true" signature="6040:6317" ph="{...}" />
+            <marker date="1535683066030" expanded="true" signature="6079:6090" ph="{}" />
+            <marker date="1535683066030" expanded="true" signature="6207:6218" ph="{}" />
+            <marker date="1535683066030" expanded="true" signature="6300:6311" ph="{}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/PasswordEncoderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1042,10 +955,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/common/Enum/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/api/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/RememberMeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/rememberme/AbstractRememberMeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/session/AbstractSessionFixationProtectionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/session/SessionAuthenticationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/WebAuthenticationDetailsSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/authentication/AuthenticationDetailsSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/core/userdetails/cache/NullUserCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/core/userdetails/UserCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.0.BUILD-SNAPSHOT/spring-security-core-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.0.BUILD-SNAPSHOT/spring-security-web-5.1.0.BUILD-20180830.064709-385.jar!/org/springframework/security/web/csrf/CsrfFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="78" column="91" lean-forward="false" selection-start-line="78" selection-start-column="91" selection-end-line="78" selection-end-column="91" />
+        <state relative-caret-position="1136">
+          <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1054,16 +1082,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/filter/CustomerAuthenticationProcessingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+        <state relative-caret-position="-176">
+          <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/access/UrlAccessDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/access/UrlFilterInvocationSecurityMetadataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/CustomerAuthEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/handler/LoginFailedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/shaozeming/security/core/provider/CustomerAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        <state relative-caret-position="264">
+          <caret line="38" column="111" lean-forward="false" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
           <folding />
         </state>
       </provider>

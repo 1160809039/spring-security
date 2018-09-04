@@ -36,7 +36,7 @@ public class CustomerAuthenticationProvider extends AbstractUserDetailsAuthentic
             this.logger.debug("Authentication failed: no credentials provided");
             throw new BadCredentialsException(this.messages.getMessage("AbstractUserDetailsAuthenticationProvider.badCredentials", "Bad credentials"));
         } else {
-            String presentedPassword = authentication.getCredentials().toString();
+            String presentedPassword = this.passwordEncoder.encode(authentication.getCredentials().toString());
             if (!this.passwordEncoder.matches(presentedPassword, userDetails.getPassword())) {
                 this.logger.debug("Authentication failed: password does not match stored value");
                 throw new BadCredentialsException(this.messages.getMessage("AbstractUserDetailsAuthenticationProvider.badCredentials", "Bad credentials"));
