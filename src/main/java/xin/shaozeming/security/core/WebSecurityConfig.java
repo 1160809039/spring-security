@@ -1,6 +1,8 @@
 package xin.shaozeming.security.core;
 
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authentication.ProviderManager;
 import org.springframework.security.config.annotation.ObjectPostProcessor;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -17,6 +19,8 @@ import xin.shaozeming.security.core.handler.*;
 import xin.shaozeming.security.core.provider.CustomerAuthenticationProvider;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * \* Created with IntelliJ IDEA.
@@ -73,6 +77,7 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 
     }
     private  CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter(AuthenticationManager  authenticationManager) {
+
         CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter = new CustomerAuthenticationProcessingFilter();
         //为过滤器添加认证器
         customerAuthenticationProcessingFilter.setAuthenticationManager(authenticationManager);
@@ -86,15 +91,15 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
      * */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-//        CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter=  new CustomerAuthenticationProcessingFilter();
-//        List<AuthenticationProvider> list= new ArrayList<>();
-//        list.add(customerAuthenticationProvider);
-//        customerAuthenticationProcessingFilter.setAuthenticationManager(http.getSharedObject(AuthenticationManager.class));
-//        customerAuthenticationProcessingFilter.setAuthenticationSuccessHandler(loginSuccessHandler);
-//        customerAuthenticationProcessingFilter.setAuthenticationFailureHandler(loginFailedHandler);
+        CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter=  new CustomerAuthenticationProcessingFilter();
+        List<AuthenticationProvider> list= new ArrayList<>();
+        list.add(customerAuthenticationProvider);
+        customerAuthenticationProcessingFilter.setAuthenticationManager(new ProviderManager(list));
+        customerAuthenticationProcessingFilter.setAuthenticationSuccessHandler(loginSuccessHandler);
+        customerAuthenticationProcessingFilter.setAuthenticationFailureHandler(loginFailedHandler);
 
         http
-                .addFilterBefore(customerAuthenticationProcessingFilter(authenticationManager()), UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(customerAuthenticationProcessingFilter, UsernamePasswordAuthenticationFilter.class)
                 .authenticationProvider(customerAuthenticationProvider)
                 .authorizeRequests()
                 .withObjectPostProcessor(new ObjectPostProcessor<FilterSecurityInterceptor>() {
