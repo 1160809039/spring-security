@@ -76,14 +76,15 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
         web.ignoring().antMatchers("/index.html", "/static/**");
 
     }
-    private  CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter(AuthenticationManager  authenticationManager) {
+    private  CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter() {
 
         CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter = new CustomerAuthenticationProcessingFilter();
         //为过滤器添加认证器
-        customerAuthenticationProcessingFilter.setAuthenticationManager(authenticationManager);
-        //重写认证失败时的跳转页面
-        customerAuthenticationProcessingFilter.setAuthenticationFailureHandler(loginFailedHandler);
+        List<AuthenticationProvider> list= new ArrayList<>();
+        list.add(customerAuthenticationProvider);
+        customerAuthenticationProcessingFilter.setAuthenticationManager(new ProviderManager(list));
         customerAuthenticationProcessingFilter.setAuthenticationSuccessHandler(loginSuccessHandler);
+        customerAuthenticationProcessingFilter.setAuthenticationFailureHandler(loginFailedHandler);
         return customerAuthenticationProcessingFilter;
     }
     /**
@@ -91,16 +92,9 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
      * */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        CustomerAuthenticationProcessingFilter customerAuthenticationProcessingFilter=  new CustomerAuthenticationProcessingFilter();
-        List<AuthenticationProvider> list= new ArrayList<>();
-        list.add(customerAuthenticationProvider);
-        customerAuthenticationProcessingFilter.setAuthenticationManager(new ProviderManager(list));
-        customerAuthenticationProcessingFilter.setAuthenticationSuccessHandler(loginSuccessHandler);
-        customerAuthenticationProcessingFilter.setAuthenticationFailureHandler(loginFailedHandler);
 
         http
-                .addFilterBefore(customerAuthenticationProcessingFilter, UsernamePasswordAuthenticationFilter.class)
-                .authenticationProvider(customerAuthenticationProvider)
+                .addFilterBefore(customerAuthenticationProcessingFilter(), UsernamePasswordAuthenticationFilter.class)
                 .authorizeRequests()
                 .withObjectPostProcessor(new ObjectPostProcessor<FilterSecurityInterceptor>() {
                     @Override
